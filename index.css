@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+body {
+  background-image: url("/Background.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 1px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+#registration-form {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  width: 75%;
+  margin: auto;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.input-box input[type="text"],
+.input-box input[type="email"],
+.input-box input[type="password"],
+.input-box input[type="date"],
+.input-box input[type="number"],
+.input-box input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.input-box input[type="submit"],
+.input-box input[type="reset"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.input-box input[type="submit"]:hover,
+.input-box input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+.user-details2 {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}

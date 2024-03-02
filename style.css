@@ -1,0 +1,49 @@
+body {
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+header {
+  background-color: #f1f1f1;
+  padding: 15px;
+  box-shadow: 0 0 3px #000;
+}
+header li {
+  display: inline;
+  padding-left: 45px;
+}
+header li a {
+  color: #333;
+  text-decoration: none;
+  padding: 13px;
+}
+header li a:hover {
+  color: royalblue;
+  text-decoration: none;
+  padding: 13px;
+  transition: 0.3s ease;
+}
+header li a:hover {
+  color: royalblue;
+}
+header ul #profile a {
+  color: #fff;
+  background-color: royalblue;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -15px;
+}
+header ul #contact a:hover {
+  background-color: goldenrod;
+}
+header li img {
+  width: 200px;
+  float: left;
+  margin-top: -30px;
+}
+.active {
+  color: goldenrod;
+}
